@@ -17,6 +17,7 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
     Encryption/qaesencryption.cpp \
+    Models/OnHub/station.cpp \
     OAuthClient/AuthenticationUtilities.cpp \
     OAuthClient/authdialog.cpp \
     apiauthenticator.cpp \
@@ -28,6 +29,7 @@ SOURCES += \
 
 HEADERS += \
     Encryption/qaesencryption.h \
+    Models/OnHub/station.h \
     OAuthClient/AuthenticationUtilities.h \
     OAuthClient/authdialog.h \
     apiauthenticator.h \

@@ -40,6 +40,7 @@ void AuthDialog::doLoginPageRequest() {
     dataObject.insert("hl", "en-US");
     dataObject.insert("device_challenge_request", deviceChallenge);
     dataObject.insert("client_state", clientState);
+    dataObject.insert("color_scheme","dark");
 
     QString data = QJsonDocument(dataObject).toJson();
 
